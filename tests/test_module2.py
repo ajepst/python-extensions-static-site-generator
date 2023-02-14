@@ -164,10 +164,10 @@ def test_hooks_event_hook_module2(parse):
                 "0_iter_type": "Subscript",
                 "0_iter_value_type": "Subscript",
                 "0_iter_value_value_id": "_callbacks",
-                "0_iter_value_slice_type": "Name",
-                "0_iter_value_slice_id": "hook",
-                "0_iter_slice_type": "Name",
-                "0_iter_slice_id": "order",
+                "0_iter_value_slice_type": "Index",
+                "0_iter_value_slice_value_id": "hook",
+                "0_iter_slice_type": "Index",
+                "0_iter_slice_value_id": "order",
             }
         )
         .exists()
@@ -243,10 +243,10 @@ def test_hooks_filter_hook_module2(parse):
                 "0_iter_type": "Subscript",
                 "0_iter_value_type": "Subscript",
                 "0_iter_value_value_id": "_callbacks",
-                "0_iter_value_slice_type": "Name",
-                "0_iter_value_slice_id": "hook",
-                "0_iter_slice_type": "Name",
-                "0_iter_slice_id": "order",
+                "0_iter_value_slice_type": "Index",
+                "0_iter_value_slice_value_id": "hook",
+                "0_iter_slice_type": "Index",
+                "0_iter_slice_value_id": "order",
             }
         )
         .exists()
